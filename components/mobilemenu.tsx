@@ -21,7 +21,7 @@ const links=[
 const Mobile = () => {
     const pathname = usePathname()
   return (
-    <div>
+    <div className='bg-white dark:bg-inherit'>
         <Menubar>
             <MenubarMenu >
                 <MenubarTrigger className='border-none'>
@@ -36,7 +36,7 @@ const Mobile = () => {
                             {link.name}
                         </Link>
                         :
-                        <Link href={link.href} className='text-black '>
+                        <Link href={link.href} className='text-black dark:text-white'>
                             {link.name}
                         </Link>
                         }

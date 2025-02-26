@@ -62,7 +62,7 @@ const ProductPage = async (props: { params: Promise<{ slug: string }>;}) => {
                         <Star className="h-5 w-5" />
                     </Button>
 
-                    <span className="text-sm  transition duration-100">
+                    <span className="text-sm mx-2 transition duration-100">
                         56 Ratings
                     </span>
                 </div>
