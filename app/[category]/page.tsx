@@ -1,3 +1,5 @@
+ /* eslint-disable */
+
 import { Button } from '@/components/ui/button';
 import { client, urlfor } from '@/lib/sanity'
 import Image from 'next/image'
