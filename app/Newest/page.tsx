@@ -11,7 +11,7 @@ export interface dataprop{
   description:string,
   slug: string,
   category:string,
-  imageURL:any
+  imageURL:string
 }
 
 async function getData(){

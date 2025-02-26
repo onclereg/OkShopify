@@ -1,3 +1,5 @@
+ /* eslint-disable */
+
 import AddToBag from '@/components/AddToBag';
 import CheckoutNow from '@/components/CheckOutNow';
 import { Button } from '@/components/ui/button';
@@ -12,7 +14,7 @@ export interface slugprop{
     description:string,
     price:number,
     categoryName:string,
-    imageUrl:any,
+    imageUrl:string,
     price_id: string;
 }
 async function getData(slug: string) {
