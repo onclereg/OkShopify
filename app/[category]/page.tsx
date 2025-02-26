@@ -34,8 +34,9 @@ return data;
 
 export const dynamic = "force-dynamic";
 
-const Category = async ({ params,}: {params: { category: string };}) => {
-    const data:categoryProp[] = await getData(params.category);
+const Category = async (props: {params: Promise<{ category: string }>;}) => {
+  const params = await props.params;
+  const data:categoryProp[] = await getData(params.category);
 
   return (
     <div className="bg-white dark:bg-black py-3 md:py-9  dark:text-white">
