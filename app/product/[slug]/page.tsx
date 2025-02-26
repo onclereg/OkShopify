@@ -32,7 +32,7 @@ async function getData(slug: string) {
   }
 
   export const dynamic = "force-dynamic";
-  
+
 const ProductPage = async ({ params,}: {params: { slug: string };}) => {
     const data:slugprop = await getData(params.slug);
 

@@ -1,5 +1,4 @@
 import Hero from "@/components/Hero";
-import Image from "next/image";
 import Newest from "./Newest/page";
 
 export const dynamic = "force-dynamic";

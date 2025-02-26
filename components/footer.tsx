@@ -1,4 +1,4 @@
-import { Facebook } from "lucide-react";
+
 import { FaFacebookF, FaInstagram, FaPinterest, FaTwitter } from "react-icons/fa";
 
 export default function Footer() {
