@@ -30,6 +30,8 @@ return data;
 
 };
 
+export const dynamic = "force-dynamic";
+
 const Category = async ({ params,}: {params: { category: string };}) => {
     const data:categoryProp[] = await getData(params.category);
 
